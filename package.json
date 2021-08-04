@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "akky-xxxx <114.s.aki@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "convert": "ts-node scripts/convertToWebp/indedx.ts"
+  },
   "devDependencies": {
     "@types/glob": "^7.1.4",
     "@types/node": "^16.4.10",
